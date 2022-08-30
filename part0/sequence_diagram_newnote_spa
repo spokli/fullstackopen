@@ -1,0 +1,13 @@
+note over browser:
+browser executes the custom form submit 
+event handler that stores the new note 
+locally and posts it to the server
+end notetitle Untitled
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+server stores the new note
+end note
+
+server-->browser: HTML-code 201 Created
