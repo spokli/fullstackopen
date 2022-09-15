@@ -1,0 +1,6 @@
+node_modules
+.env
+fly.toml
+requests
+.eslintrc.js
+.eslintignore
